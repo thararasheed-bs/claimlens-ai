@@ -141,3 +141,18 @@ ClaimLens AI aims to reduce uncertainty in healthcare financing by combining:
 - Compound engineering methodology
 
 Each engineering iteration compounds future system intelligence and maintainability.
+
+## Compound Engineering Integration
+
+This project integrates the Compound Engineering Plugin 
+(https://github.com/thararasheed-bs/compound-engineering-plugin) 
+as part of the hackathon requirement.
+
+The plugin enables structured engineering workflows,
+modular backend logic orchestration, and scalable development practices.
+
+Compound Engineering is used to:
+- Structure backend logic
+- Modularize workflow orchestration
+- Improve system maintainability
+
