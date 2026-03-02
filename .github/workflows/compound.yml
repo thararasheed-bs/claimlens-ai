@@ -1,0 +1,27 @@
+name: Compound Engineering Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  compound-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Validate architecture structure
+        run: |
+          echo "Validating Compound Engineering structure..."
+          if [ -f compound/architecture.md ]; then
+            echo "Architecture file exists."
+          else
+            echo "Architecture file missing!"
+            exit 1
+          fi
+
+      - name: Compound workflow completed
+        run: echo "Compound Engineering validation successful."
